@@ -11,7 +11,7 @@ Camera Pose Estimation:
 Computes camera pose using 2D-3D correspondences with OpenCV's solvePnP.
 Tracks both true and computed camera trajectories for comparison.
 User Interaction:
-
+ 
 Record and visualize camera movement through the environment.
 Add and manage 3D points interactively using mouse inputs.
 Toggle between different views and modes (e.g., tracker setup, normal, flight modes).
