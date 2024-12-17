@@ -10,6 +10,7 @@ Camera Pose Estimation:
 
 Computes camera pose using 2D-3D correspondences with OpenCV's solvePnP.  
 Tracks both true and computed camera trajectories for comparison.  
+
 User Interaction:  
  
 Record and visualize camera movement through the environment.  
@@ -19,31 +20,14 @@ Toggle between different views and modes (e.g., tracker setup, normal, flight mo
 
 Renders real-time 3D graphics using OpenGL.  
 Supports picking, camera fly-through, and blended visualizations.  
-Getting Started  
-Prerequisites  
+
 Dependencies:  
 OpenGL (via GLFW and GLAD)  
 OpenCV (for pose estimation and image processing)  
 GLM (for matrix operations)  
 stb_image (for texture loading)  
 Ensure these libraries are installed and linked to your project.  
-Build and Run  
-Clone the repository:  
-bash  
-Copy code  
-git clone https://github.com/yourusername/3d-camera-pose.git  
-cd 3d-camera-pose  
-Compile the project:  
-bash  
-Copy code  
-mkdir build && cd build  
-cmake ..  
-make  
-Run the executable:  
-bash   
-Copy code  
-./3D_Camera_Simulator  
-Controls  
+
 Camera Movement:  
 
 Arrow keys: Move camera (2D plane)  
