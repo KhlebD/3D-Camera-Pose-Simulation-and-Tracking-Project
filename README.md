@@ -1,5 +1,6 @@
 # 3D Camera Pose Simulation and Tracking  
-This project is an interactive 3D Camera Pose Simulation and Tracking System, developed as part of a pose estimation course. The application visualizes camera movement, computes 3D poses, and allows users to interactively explore a simulated environment using OpenGL and OpenCV.  
+This project is an interactive 3D Camera Pose Simulation and Tracking System, developed as part of a 3D graphics course. The application visualizes camera movement, computes 3D poses, and allows users to interactively explore a simulated environment using OpenGL and OpenCV.  
+![WhatsApp Image 2024-12-17 at 14 29 07](https://github.com/user-attachments/assets/3b47080e-c8b5-44a7-b646-418b11e4c808)
 
 Features  
 Interactive Terrain Simulation:  
